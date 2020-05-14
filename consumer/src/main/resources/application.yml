@@ -1,0 +1,9 @@
+server:
+  port: 9999
+
+# 消费者去哪里拿，自己也要注册
+dubbo:
+  application:
+    name: consumer
+  registry:
+    address: zookeeper://127.0.0.1:2181

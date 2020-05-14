@@ -1,0 +1,12 @@
+
+
+# 注册： 服务应用的名字，注册中心地址，哪些服务要被注册
+dubbo:
+  application:
+    name: provider
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  scan:
+    base-packages: com.yuan.service
+server:
+  port: 8888
